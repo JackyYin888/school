@@ -1,318 +1,383 @@
 <!doctype html>
 <html lang="zh-Hant">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>延平中學升學規劃導覽</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>文城大安校競品行銷廣告分析</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="page-glow" aria-hidden="true"></div>
     <header class="topbar">
-      <a class="brand" href="#top" aria-label="回到首頁">
-        <span class="brand-mark">延</span>
-        <span>
-          <strong>延平升學規劃導覽</strong>
-          <small>給新生與家長的快速理解版</small>
-        </span>
-      </a>
-      <nav class="nav" aria-label="主要章節">
-        <a href="#route">升學路線</a>
-        <a href="#score">直升計分</a>
-        <a href="#tracks">國三分流</a>
-        <a href="#faq">常見問題</a>
-      </nav>
+      <div class="header-left">
+        <h1>文城大安校競品行銷廣告分析</h1>
+        <div class="header-tags">
+          <span class="tag tag-alert">競品招生節奏</span>
+          <span class="tag tag-info">五家補習班比較</span>
+          <span class="tag tag-info">五年社群貼文資料</span>
+          <span class="tag tag-live"><i class="status-dot"></i>文城策略藍圖</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <span class="timezone-badge">文城大安校專用分析頁</span>
+      </div>
     </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <div class="status-line" aria-label="資料狀態">
-            <span></span>
-            <strong>升學資料已整理</strong>
-            <small>115.05.11 報告版</small>
-          </div>
-          <p class="eyebrow">臺北市私立延平高級中學 國中部</p>
-          <h1 id="hero-title">把延平六年一貫升學節奏，一次看懂。</h1>
-          <p class="hero-lede">
-            依據升學規劃報告整理成家長導覽網站：先掌握國一到國三的關鍵時間點，再看直升成績怎麼算、國三如何分班，以及孩子該在什麼時候補強。
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#route">開始看路線</a>
-            <a class="button ghost" href="#quick">先看重點</a>
-          </div>
+    <main class="layout">
+      <aside class="control-panel" aria-label="比較設定">
+        <div class="sidebar-logo">
+          <span class="radar-mark" aria-hidden="true"></span>
+          <span class="logo-text">文城大安</span>
         </div>
-        <figure class="hero-visual">
-          <div class="visual-badge left">
-            <span>國二下</span>
-            <strong>40%</strong>
-          </div>
-          <img src="assets/route-map.svg" alt="延平國中部從國一到高中分組的升學路線圖" />
-          <div class="visual-badge right">
-            <span>直升名額</span>
-            <strong>270</strong>
-          </div>
-        </figure>
-      </section>
 
-      <section id="quick" class="quick-strip" aria-label="核心重點">
-        <article>
-          <span>直升名額</span>
-          <strong><b data-count="270">0</b> 人</strong>
-          <p>約 6 班，每班約 45 人。</p>
-        </article>
-        <article>
-          <span>最大權重</span>
-          <strong>國二下 <b data-count="40">0</b>%</strong>
-          <p>國二下是直升排名最關鍵學期。</p>
-        </article>
-        <article>
-          <span>主考節奏</span>
-          <strong>每學期約 <b data-count="6">0</b> 次</strong>
-          <p>3 次週考加 3 次段考含期末。</p>
-        </article>
-        <article>
-          <span>科目權重</span>
-          <strong>國文 <b data-count="5">0</b></strong>
-          <p>國文 5、數學 4、英文 3。</p>
-        </article>
-      </section>
+        <section class="toolbar" aria-label="資料視角">
+          <button class="tab-button active" type="button" data-view="overview">總覽</button>
+          <button class="tab-button" type="button" data-view="channels">通路與內容</button>
+          <button class="tab-button" type="button" data-view="risks">弱點缺口</button>
+          <button class="tab-button" type="button" data-view="blueprint">行銷藍圖</button>
+          <button class="tab-button" type="button" data-view="archive">貼文資料庫</button>
+          <button class="tab-button" type="button" data-view="wenshine">文城策略</button>
+        </section>
 
-      <section class="control-deck" aria-label="升學控制台摘要">
-        <div class="control-copy">
-          <p class="eyebrow">Mission Control</p>
-          <h2>一頁看出家長要追蹤的風險訊號</h2>
-        </div>
-        <div class="signal-grid">
-          <article>
-            <span>成績節奏</span>
-            <strong>高頻測驗</strong>
-            <p>週考、段考、小考與作業一起影響排名。</p>
-          </article>
-          <article>
-            <span>分流時點</span>
-            <strong>暑輔第二週</strong>
-            <p>國三直升班與外考班正式分流。</p>
-          </article>
-          <article>
-            <span>資格風險</span>
-            <strong>3 次警告</strong>
-            <p>獎懲、出缺勤與手機規範都要同步控管。</p>
-          </article>
-        </div>
-      </section>
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>比較名單</h2>
+            <button id="resetSelection" class="icon-button" type="button" title="恢復五家預設">↺</button>
+          </div>
+          <div id="competitorToggles" class="toggle-list"></div>
+        </section>
 
-      <section id="route" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Route</p>
-          <h2>三年國中，其實有四個決策點</h2>
-          <p>延平的重點不是只看會考，而是從國一開始累積直升排序。家長最需要知道每個階段該做什麼。</p>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span class="step">01</span>
-            <h3>國一上：適應但不能完全放空</h3>
-            <p>七上佔直升總成績 10%。比例最低，但學生程度集中，排名差距可能很細。</p>
-          </article>
-          <article class="timeline-item">
-            <span class="step">02</span>
-            <h3>國一下：開始穩定學科節奏</h3>
-            <p>七下佔 20%。如果英文、數學或國文出現落差，這時補強成本仍較低。</p>
-          </article>
-          <article class="timeline-item">
-            <span class="step">03</span>
-            <h3>國二：直升排序的主戰場</h3>
-            <p>八上 30%、八下 40%。國二下段考二後開始調查直升意願，是焦慮最高的階段。</p>
-          </article>
-          <article class="timeline-item">
-            <span class="step">04</span>
-            <h3>國三：直升班或外考班</h3>
-            <p>暑輔第二週公布分班。直升班進入高中課程，外考班集中會考複習。</p>
-          </article>
-        </div>
-      </section>
+        <section class="panel-section">
+          <div class="section-title">
+            <h2>新增補習班</h2>
+          </div>
+          <form id="addCompetitorForm" class="add-form">
+            <label>
+              名稱
+              <input id="newName" name="newName" type="text" placeholder="例如：文城大安校" required />
+            </label>
+            <label>
+              文件檔
+              <input id="newDocument" name="newDocument" type="file" accept=".doc,.docx,.pdf,.txt" required />
+            </label>
+            <button class="primary-button" type="submit">新增到比較</button>
+          </form>
+        </section>
 
-      <section id="score" class="section tinted">
-        <div class="section-heading">
-          <p class="eyebrow">Score</p>
-          <h2>直升成績怎麼算</h2>
-          <p>直升不是只靠最後一次考試，而是四個學期加權後排序。對新生家長來說，這張表最值得先記住。</p>
-        </div>
-        <div class="score-layout">
-          <div class="weight-bars" aria-label="四學期直升權重">
-            <div class="bar-row">
-              <span>七上</span>
-              <div class="bar-track"><div style="--value: 10%"></div></div>
-              <strong>10%</strong>
+      </aside>
+
+      <section class="content">
+        <section class="hero-band">
+          <div class="hero-copy">
+            <p class="eyebrow">文城大安校競品分析</p>
+            <h2>從競品廣告節奏，找出文城大安校的招生攻防打法。</h2>
+            <p>
+              這份互動頁整合五家競品的年度行銷節奏、五年內社群貼文資料與文城大安校家說會洞察，
+              讓經營決策可以同時看見「對手何時出手」與「家長為何願意投入」。
+            </p>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <span id="selectedCount">5</span>
+              <small>比較品牌</small>
             </div>
-            <div class="bar-row">
-              <span>七下</span>
-              <div class="bar-track"><div style="--value: 20%"></div></div>
-              <strong>20%</strong>
+            <div>
+              <span id="highMonthCount">0</span>
+              <small>高強度月份</small>
             </div>
-            <div class="bar-row">
-              <span>八上</span>
-              <div class="bar-track"><div style="--value: 30%"></div></div>
-              <strong>30%</strong>
-            </div>
-            <div class="bar-row highlight">
-              <span>八下</span>
-              <div class="bar-track"><div style="--value: 40%"></div></div>
-              <strong>40%</strong>
+            <div>
+              <span id="peakMonthLabel">7月</span>
+              <small>競爭最熱月份</small>
             </div>
           </div>
-          <div class="insight-panel">
-            <h3>家長最容易誤判的地方</h3>
-            <ul>
-              <li>國一不是完全不重要，因為排名密集時每一分都可能拉開名次。</li>
-              <li>國二下權重最高，若到這時才補強，通常已經很吃力。</li>
-              <li>平時作業與小考不可忽視，有案例是考試高分但作業拖累排名。</li>
-              <li>警告累計達 3 次會影響直升資格，品行與出缺勤也要管理。</li>
-            </ul>
+        </section>
+
+        <section class="view active" data-view-panel="overview">
+          <article class="module summary-module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">分析目的</p>
+                <h3>這是一個給文城大安校使用的競品行銷廣告分析頁</h3>
+              </div>
+            </div>
+            <div class="analysis-purpose">
+              <div><span>01</span><strong>看競品年度節奏</strong><p>比較趨勢、游濤、上華、巨江、寰宇在每個月份的廣告強度與招生高峰。</p></div>
+              <div><span>02</span><strong>查社群貼文證據</strong><p>用關鍵字、補習班與主題快速找到五年內 FB 貼文截圖與相關內容。</p></div>
+              <div><span>03</span><strong>轉成文城打法</strong><p>把家長決策心理、私校焦慮與競品弱點，整理成文城大安校的招生訊息與攻防策略。</p></div>
+            </div>
+          </article>
+
+          <div class="grid two">
+            <article class="module wide">
+              <div class="module-head">
+                <div>
+                  <p class="eyebrow">年度廣告節奏</p>
+                  <h3>年度月份廣告強度</h3>
+                </div>
+                <div class="legend">
+                  <span><i class="level high"></i>高</span>
+                  <span><i class="level mid"></i>中</span>
+                  <span><i class="level low"></i>低</span>
+                </div>
+              </div>
+              <div id="heatmap" class="heatmap"></div>
+            </article>
+
+            <article class="module">
+              <div class="module-head">
+                <div>
+                  <p class="eyebrow">競品定位地圖</p>
+                  <h3>補習班定位矩陣</h3>
+                </div>
+              </div>
+              <canvas id="positionCanvas" class="position-canvas" width="760" height="520"></canvas>
+            </article>
           </div>
-        </div>
 
-        <div class="subject-grid" aria-label="直升科目權重">
-          <article><span>國文</span><strong>5</strong><p>權重最高，不能只靠數理補回。</p></article>
-          <article><span>數學</span><strong>4</strong><p>進度快、題型難，是穩排名核心。</p></article>
-          <article><span>英文</span><strong>3</strong><p>字彙與閱讀量明顯高於公立國中。</p></article>
-          <article><span>生物</span><strong>3</strong><p>國一即列入重要科目。</p></article>
-          <article><span>理化</span><strong>1</strong><p>國二開始加入計分。</p></article>
-          <article><span>社會</span><strong>1</strong><p>地理、歷史、公民依年級列入。</p></article>
-        </div>
-      </section>
-
-      <section id="exam" class="section">
-        <div class="section-heading compact">
-          <p class="eyebrow">Exam Rhythm</p>
-          <h2>考試節奏：不是週週大考，但壓力很密</h2>
-        </div>
-        <div class="exam-grid">
-          <article>
-            <h3>平時考</h3>
-            <p>各科老師自行安排，包含注釋默寫、單字測驗、小考與作業表現。</p>
-          </article>
-          <article>
-            <h3>週考</h3>
-            <p>每學期約 3 次，國英數為主，全校排名，成績會列入學期計算。</p>
-          </article>
-          <article>
-            <h3>段考</h3>
-            <p>每學期 3 次，含期末考。全科施測，全校排名，是家長最需要盯緊的節點。</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="tracks" class="section split-section">
-        <div class="section-heading">
-          <p class="eyebrow">Tracks</p>
-          <h2>國三分班：直升班與外考班的差別</h2>
-          <p>國三開始，學習目標會分成兩條線。選哪一條，取決於孩子適應度、目標高中與家庭對風險的承受度。</p>
-        </div>
-        <div class="compare">
-          <article class="track direct">
-            <div class="track-top">
-              <span>6-11 班</span>
-              <h3>直升班</h3>
+          <article class="module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">Core Positioning</p>
+                <h3>五家競品核心定位</h3>
+              </div>
             </div>
-            <ul>
-              <li>對象：取得直升資格且選擇直升者。</li>
-              <li>國三上開始進入高中課程，數理難度提升。</li>
-              <li>國三下物理、化學分科，加上生物等高中銜接內容。</li>
-              <li>通常仍報名會考，但多數不以會考成績為主目標。</li>
-              <li>適合希望六年一貫穩定累積、目標頂大熱門科系的學生。</li>
-            </ul>
+            <div id="overviewCards" class="card-grid"></div>
           </article>
-          <article class="track exam">
-            <div class="track-top">
-              <span>1-5 班</span>
-              <h3>外考班</h3>
+
+          <article class="module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">競品類型</p>
+                <h3>五種競爭者模型</h3>
+              </div>
             </div>
-            <ul>
-              <li>對象：放棄直升、未取得資格，或另有外考目標者。</li>
-              <li>課程集中國中進度與會考複習。</li>
-              <li>可依班級做法選擇晚自習，通常由家長輪值到晚上 9 點。</li>
-              <li>模擬考與自主規劃很重要，外部補強需求較高。</li>
-              <li>適合明確瞄準建中、北一女、科學班等路線的學生。</li>
-            </ul>
+            <div class="model-grid">
+              <div><span>趨勢</span><strong>全年心理戰與私域收割型</strong><p>用資訊壟斷、FOMO、實驗視覺與 LINE 私域控制家長全年焦慮週期。</p></div>
+              <div><span>游濤</span><strong>低頻成果查證型</strong><p>不追流量，靠滿分考卷、方法論與高端榜單讓需求自己找上門。</p></div>
+              <div><span>上華</span><strong>在地雙峰促銷型</strong><p>暑期與寒假雙峰爆發，用學區口碑、名額壓力與表單轉換推動報名。</p></div>
+              <div><span>巨江</span><strong>專科權威講座型</strong><p>以理化權威與校別直升專班形成榜單、講座、成交的短路徑。</p></div>
+              <div><span>寰宇</span><strong>高頻陪伴品牌型</strong><p>用國際感、活動感、學生舞台與日常陪伴建立長期家長忠誠。</p></div>
+            </div>
           </article>
-        </div>
-      </section>
+        </section>
 
-      <section id="checklist" class="section tinted">
-        <div class="section-heading compact">
-          <p class="eyebrow">Action</p>
-          <h2>新生家長的第一年檢查表</h2>
-        </div>
-        <div class="checklist">
-          <label><input type="checkbox" /> 確認 eClass 與 1Campus Next 可正常查詢成績、出缺勤與獎懲。</label>
-          <label><input type="checkbox" /> 開學前先檢查國英數基礎，尤其數學先修與英文閱讀量。</label>
-          <label><input type="checkbox" /> 不只盯段考，也要建立作業準時繳交與小考訂正習慣。</label>
-          <label><input type="checkbox" /> 七下前評估是否需要補強，避免等到國二下才補救。</label>
-          <label><input type="checkbox" /> 每次成績公告後，在核對期限內處理疑義。</label>
-          <label><input type="checkbox" /> 留意獎懲、出缺勤與手機規範，避免非成績因素影響資格。</label>
-        </div>
-      </section>
+        <section class="view" data-view-panel="channels">
+          <div class="grid two">
+            <article class="module">
+              <div class="module-head">
+                <div>
+                  <p class="eyebrow">社群內容分析</p>
+                  <h3>內容武器比例</h3>
+                </div>
+              </div>
+              <div id="contentMix" class="mix-list"></div>
+            </article>
+            <article class="module">
+              <div class="module-head">
+                <div>
+                  <p class="eyebrow">招生轉換路徑</p>
+                  <h3>通路與轉換摩擦</h3>
+                </div>
+              </div>
+              <div id="channelCards" class="stack-list"></div>
+            </article>
+          </div>
+        </section>
 
-      <section id="faq" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">FAQ</p>
-          <h2>家長最常問的問題</h2>
-          <p>點開問題即可快速查看答案。這裡保留報告中最會影響決策的內容。</p>
-        </div>
-        <div class="faq-tools" role="tablist" aria-label="問題分類">
-          <button class="active" data-filter="all" type="button">全部</button>
-          <button data-filter="score" type="button">成績排名</button>
-          <button data-filter="direct" type="button">直升制度</button>
-          <button data-filter="life" type="button">校園生活</button>
-          <button data-filter="prep" type="button">補強準備</button>
-        </div>
-        <div class="faq-list">
-          <details data-category="score" open>
-            <summary>延平是週週大考嗎？</summary>
-            <p>不是每週都有大型考試，但考試密度高。每學期約 3 次週考加 3 次段考，另有各科小考與作業評量，所以家長會感覺「兩週就有一次大考」。</p>
-          </details>
-          <details data-category="score">
-            <summary>週考與段考比例是多少？</summary>
-            <p>官方說法是週考與段考比例差不多，但確切比例會依科目而異。平時作業也有影響，建議不要只看大考分數。</p>
-          </details>
-          <details data-category="direct">
-            <summary>直升從哪個學期開始計入？</summary>
-            <p>七上就開始計入，七上 10%、七下 20%、八上 30%、八下 40%。八下最關鍵，但國一的穩定度也會影響後續排名。</p>
-          </details>
-          <details data-category="direct">
-            <summary>直升後可以享有高中免學費嗎？</summary>
-            <p>報告提醒：延平直升採單獨招生管道，依現行規定不適用高中全面免學費政策。這是家長需要提前列入的財務考量。</p>
-          </details>
-          <details data-category="direct">
-            <summary>有直升資格還能外考嗎？</summary>
-            <p>可以。持有直升資格的學生仍可選擇外考，但若在直升班中途轉向會考，準備節奏可能不如外考班完整，需慎重評估。</p>
-          </details>
-          <details data-category="life">
-            <summary>手機規定嚴格嗎？</summary>
-            <p>嚴格。到校後手機須關機並收妥，離校後才能開機，晚自習期間也禁止使用。這也是延平學習效率被看重的原因之一。</p>
-          </details>
-          <details data-category="life">
-            <summary>國一、國二有晚自習嗎？</summary>
-            <p>國一、國二沒有固定晚自習，通常建議回家自習或假日補強。圖書館晚自習可預約使用，依學校公告時段為準。</p>
-          </details>
-          <details data-category="prep">
-            <summary>延平英文與公立國中差很多嗎？</summary>
-            <p>報告指出差距明顯。國一、國二英文詞彙量可到中級程度，國三直升班閱讀量與難度會再提高。</p>
-          </details>
-          <details data-category="prep">
-            <summary>補習要從什麼時候開始？</summary>
-            <p>建議先觀察孩子跟課狀況。若要補強，七下前是較好的調整點；國二下才開始補救通常壓力較大。科目上不宜只補數理，國文權重最高。</p>
-          </details>
-        </div>
+        <section class="view" data-view-panel="risks">
+          <article class="module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">文城可攻擊缺口</p>
+                <h3>弱點盤點與可攻擊缺口</h3>
+              </div>
+            </div>
+            <div id="riskRows" class="risk-table"></div>
+          </article>
+        </section>
+
+        <section class="view" data-view-panel="blueprint">
+          <div class="grid two">
+            <article class="module">
+              <div class="module-head">
+                <div>
+                  <p class="eyebrow">文城家說會洞察</p>
+                  <h3>家長買的不是補習，而是確定性</h3>
+                </div>
+              </div>
+              <div class="insight-stack">
+                <div>
+                  <strong>單人富養</strong>
+                  <p>少子化不是教育需求下降，而是每個孩子承載更高期待；家長願意把資源集中到最有把握的升學路徑。</p>
+                </div>
+                <div>
+                  <strong>108課綱後的進度焦慮</strong>
+                  <p>公校常態分班讓強勢學生容易等待，私校與私中族群則提前規劃進度；文城可把「領先一年」拆成看得見的節點。</p>
+                </div>
+                <div>
+                  <strong>買一個環境</strong>
+                  <p>家長擔心校園衝突、網路黑子化與同儕影響；招生訊息要把文城描繪成更受控、更單純、更能被看顧的學習場域。</p>
+                </div>
+                <div>
+                  <strong>一條龍確定感</strong>
+                  <p>私校吸引力來自國中、高中到大學的連續安全感；文城的課程藍圖應對接這種「少走彎路」的心理需求。</p>
+                </div>
+                <div>
+                  <strong>私校取代學區房</strong>
+                  <p>對部分家庭來說，學費比高房價更可控；行銷可把文城定位為降低教育不確定性的高效率投資。</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="module">
+              <div class="module-head">
+                <div>
+                  <p class="eyebrow">文城社群內容配比</p>
+                  <h3>社群貼文黃金配比</h3>
+                </div>
+              </div>
+              <div class="pyramid-list">
+                <div style="--w: 40%; --c: var(--accent-2)"><span>招生轉化型</span><strong>40%</strong></div>
+                <div style="--w: 25%; --c: var(--accent-3)"><span>成果榜單型</span><strong>25%</strong></div>
+                <div style="--w: 15%; --c: #566b7c"><span>學生互動型</span><strong>15%</strong></div>
+                <div style="--w: 10%; --c: #755da6"><span>家長信任型</span><strong>10%</strong></div>
+                <div style="--w: 10%; --c: var(--accent)"><span>品牌形象型</span><strong>10%</strong></div>
+              </div>
+            </article>
+          </div>
+
+          <article class="module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">文城招生訊息系統</p>
+                <h3>文城大安校招生訊息主軸</h3>
+              </div>
+            </div>
+            <div class="model-grid">
+              <div><span>01</span><strong>少子化反而更競爭</strong><p>主張不是「孩子變少就比較好考」，而是每個家庭投入更多，私校與升學卡位更早發生。</p></div>
+              <div><span>02</span><strong>從補課變成提前布局</strong><p>把文城課程包裝成升學路線圖：進度、檢核、複習、校別銜接都要讓家長看見秩序。</p></div>
+              <div><span>03</span><strong>用環境與同儕建立信任</strong><p>社群內容除了榜單，也要呈現班級秩序、師生互動、學習氣氛與家長可感的安全感。</p></div>
+              <div><span>04</span><strong>1969 年底蘊變成品牌護城河</strong><p>把文城教育學院長期辦學資歷轉成穩定、成熟、可託付的招生語氣，和競品的短期促銷做出區隔。</p></div>
+            </div>
+          </article>
+
+          <article class="module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">年度招生時鐘</p>
+                <h3>雙峰驅動的年度招生時鐘</h3>
+              </div>
+            </div>
+            <div class="clock-grid">
+              <div><span>1–2月</span><strong>考前收割期</strong><p>滿班公告、寒訓執行、最後加開，承接高意向家長。</p></div>
+              <div><span>3–5月</span><strong>轉銜與榜單期</strong><p>放榜、段考滿分、銜接講座，讓焦慮從考前轉向國中銜接。</p></div>
+              <div><span>6–8月</span><strong>暑期黃金檔</strong><p>全年最高預算區間，主打暑期不領先、開學就落後。</p></div>
+              <div><span>9–11月</span><strong>私域蓄水期</strong><p>用 LINE、懶人包、升學分析與榜單定錨，準備冬季轉換。</p></div>
+              <div><span>12月</span><strong>寒假招生衝刺</strong><p>早鳥、名額倒數、榮耀折現法，吸納高績效學生。</p></div>
+            </div>
+          </article>
+
+          <article class="module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">競品漏斗拆解</p>
+                <h3>趨勢最完整版：五層漏斗與七大內容類型</h3>
+              </div>
+            </div>
+            <div class="funnel-grid">
+              <div><strong>曝光</strong><p>FB 貼文、榜單、實驗短影音，建立存在感與初步信任。</p></div>
+              <div><strong>興趣</strong><p>私中懶人包、閱讀力文章、課堂花絮，把家長導向收藏、留言與加 LINE。</p></div>
+              <div><strong>評估</strong><p>家長說明會、免費試聽、能力檢測與模考，讓家長評估孩子適配度。</p></div>
+              <div><strong>成交</strong><p>寒訓、衝刺班、考猜、暑期班，用名額與時程壓力推動報名。</p></div>
+              <div><strong>留存</strong><p>課堂紀錄、成績回報、私中捷報與銜接課，轉為續班與轉介紹。</p></div>
+            </div>
+          </article>
+
+          <article class="module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">文城攻防策略</p>
+                <h3>對趨勢的年度防禦與主動進攻</h3>
+              </div>
+            </div>
+            <div class="counter-grid">
+              <div><span>01</span><strong>明星 IP 中性化</strong><p>用團隊系統化教學、雙導師守護、APP 追蹤與完整複習規律，降低對手名師光環。</p></div>
+              <div><span>02</span><strong>Counter-25 銜接方案</strong><p>針對趨勢 3–6 月 25 場銜接課，推出更密集、更校別分流的全科銜接方案。</p></div>
+              <div><span>03</span><strong>10月資訊主權戰</strong><p>10月下旬先發布私中懶人包，加入「趨勢沒說的避坑指南」，提前占領家長心理空格。</p></div>
+              <div><span>04</span><strong>LINE 7天自動推送</strong><p>Day1 情報、Day3 權威案例、Day5 視覺/焦慮素材、Day7 稀缺名額，形成自己的私域閉環。</p></div>
+            </div>
+          </article>
+        </section>
+
+        <section class="view" data-view-panel="archive">
+          <article class="module">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">五年內社群貼文資料</p>
+                <h3>貼文資料庫快速檢索</h3>
+              </div>
+              <span id="archiveResultCount" class="result-count">0 筆</span>
+            </div>
+            <div class="archive-tools">
+              <label>
+                關鍵字
+                <input id="archiveSearch" type="search" placeholder="例如：暑期、榜單、LINE、延平、AMC、理化" />
+              </label>
+              <label>
+                補習班
+                <select id="archiveSchool">
+                  <option value="all">全部</option>
+                </select>
+              </label>
+              <label>
+                主題
+                <select id="archiveTopic">
+                  <option value="all">全部主題</option>
+                </select>
+              </label>
+            </div>
+            <div id="archiveSummary" class="archive-summary"></div>
+            <div id="archiveResults" class="archive-results"></div>
+          </article>
+        </section>
+
+        <section class="view" data-view-panel="wenshine">
+          <div class="strategy-panel">
+            <div>
+              <p class="eyebrow">文城大安校競品應對策略</p>
+              <h3>文城大安校建議打法</h3>
+              <p>
+                建議不要複製競品高頻 FOMO 廣告戰，而是用「50年底蘊 × 一期一會 × 180指標私中備考深度」
+                建立高信任密度的查證頁與提早卡位內容。
+              </p>
+            </div>
+            <div class="strategy-list">
+              <div>
+                <span>01</span>
+                <strong>10月先發資訊</strong>
+                <p>先於趨勢 11 月發布延平考試懶人包，搶占資訊信任第一印象。</p>
+              </div>
+              <div>
+                <span>02</span>
+                <strong>國文作文攔截</strong>
+                <p>趨勢新版資料顯示其理科與資訊壟斷極強，但國文敘事薄弱；文城可用閱讀與作文攻略形成跨科差異化。</p>
+              </div>
+              <div>
+                <span>03</span>
+                <strong>40-25-15-10-10 配比</strong>
+                <p>招生轉化40%、成果榜單25%、學生互動15%、家長信任10%、品牌形象10%，避免只剩硬銷。</p>
+              </div>
+              <div>
+                <span>04</span>
+                <strong>低摩擦私域收單</strong>
+                <p>用懶人包、能力檢測、說明會與 LINE/表單串成可追蹤路徑，把流量留在自己的名單池。</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </main>
 
-    <footer class="footer">
-      <p>資料依據：延平國中部升學規劃完整報告、學校手冊、行事曆與家長討論整理。</p>
-      <p>重要制度仍以學校當年度正式公告為準。</p>
-    </footer>
-
-    <script src="app.js"></script>
+    <script src="./postData.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
